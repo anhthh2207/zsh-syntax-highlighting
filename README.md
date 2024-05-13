@@ -98,12 +98,12 @@ My own configuration for zsh highlighter
 In my own configuration, I prefer no underline for path and precommand. I also 
 change the color of the precommand to orange. To apply this change, add the following to your .zshrc:
 
-`
+```bash
 ZSH_HIGHLIGHT_STYLES[path]=none
 ZSH_HIGHLIGHT_STYLES[path_prefix]=none
 ZSH_HIGHLIGHT_STYLES[precommand]=fg=208
 # ZSH_HIGHLIGHT_STYLES[precommand]=fg=yellow,bold
-`
+```
 
 
 [build-status]: https://github.com/zsh-users/zsh-syntax-highlighting/actions
