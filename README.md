@@ -93,5 +93,18 @@ Syntax highlighting is done by pluggable highlighter scripts.  See the
 [documentation on highlighters](docs/highlighters.md) for details and
 configuration settings.
 
+My own configuration for zsh highlighter
+----------------------------------------
+In my own configuration, I prefer no underline for path and precommand. I also 
+change the color of the precommand to orange. To apply this change, add the following to your .zshrc:
+
+`
+ZSH_HIGHLIGHT_STYLES[path]=none
+ZSH_HIGHLIGHT_STYLES[path_prefix]=none
+ZSH_HIGHLIGHT_STYLES[precommand]=fg=208
+# ZSH_HIGHLIGHT_STYLES[precommand]=fg=yellow,bold
+`
+
+
 [build-status]: https://github.com/zsh-users/zsh-syntax-highlighting/actions
 [build-status-image]: https://github.com/zsh-users/zsh-syntax-highlighting/workflows/Tests/badge.svg

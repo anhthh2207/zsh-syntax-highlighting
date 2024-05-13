@@ -118,7 +118,7 @@ Click the `Install Plugin` button on the [Fig plugin page][fig-plugin].
 1. Clone this repository in oh-my-zsh's plugins directory:
 
     ```zsh
-    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    git clone -b ha_dev --single-branch git@github.com:anhthh2207/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
     ```
 
 2. Activate the plugin in `~/.zshrc`:
